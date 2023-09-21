@@ -1,4 +1,6 @@
-# REPLACE_PKG Documentation
+# MultiVariateHyperGraph Documentation
+
+[MultiVariateHyperGraph.jl](https://github.com/OmegaLambda1998/MultiVariateHyperGraph.jl)
 
 ```@contents
 ```
@@ -6,5 +8,5 @@
 ## Install
 ```
 using Pkg
-Pkg.add("REPLACE_PKG")
+Pkg.add("MultiVariateHyperGraph")
 ```

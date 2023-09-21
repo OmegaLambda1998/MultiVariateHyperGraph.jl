@@ -1,14 +1,14 @@
 using Documenter
 push!(LOAD_PATH, "../src/")
-using REPLACE_PKG
+using MultiVariateHyperGraph
 
-DocMeta.setdocmeta!(REPLACE_PKG, :DocTestSetup, :(using REPLACE_PKG); recursive=true)
+DocMeta.setdocmeta!(MultiVariateHyperGraph, :DocTestSetup, :(using MultiVariateHyperGraph); recursive=true)
 
 makedocs(
-    sitename="REPLACE_PKG Documentation",
-    modules = [REPLACE_PKG],
+    sitename="MultiVariateHyperGraph Documentation",
+    modules = [MultiVariateHyperGraph],
     pages = [
-        "REPLACE_PKG" => "index.md",
+        "MultiVariateHyperGraph" => "index.md",
         "API" => "api.md"
     ],
     format = Documenter.HTML(
@@ -17,5 +17,5 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/OmegaLambda1998/REPLACE_PKG.jl.git"
+    repo = "github.com/OmegaLambda1998/MultiVariateHyperGraph.jl.git"
 )

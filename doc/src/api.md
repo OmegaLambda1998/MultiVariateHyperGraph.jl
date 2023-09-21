@@ -5,30 +5,30 @@
 Pages = ["api.md"]
 Depth = 5
 ```
-## REPLACE_PKG Functions
+## MultiVariateHyperGraph Functions
 
 ```@meta
-CurrentModule = REPLACE_PKG
+CurrentModule = MultiVariateHyperGraph
 ```
 
 ### Public Objects
 
 ```@autodocs
-Modules = [REPLACE_PKG]
+Modules = [MultiVariateHyperGraph]
 Private = false
 ```
 
 ### Private Objects
 
 ```@autodocs
-Modules = [REPLACE_PKG]
+Modules = [MultiVariateHyperGraph]
 Public = false
 ```
 
-## REPLACE_PKG.RunModule Functions
+## MultiVariateHyperGraph.RunModule Functions
 
 ```@meta
-CurrentModule = REPLACE_PKG.RunModule
+CurrentModule = MultiVariateHyperGraph.RunModule
 ```
 
 ### Public Objects

@@ -1,6 +1,6 @@
-using REPLACE_PKG
+using MultiVariateHyperGraph
 using Test
 
-@testset "REPLACE_PKG.jl" begin
+@testset "MultiVariateHyperGraph.jl" begin
     # Write your tests here.
 end
